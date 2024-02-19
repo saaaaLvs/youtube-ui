@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.buttons{
+display: flex;
+justify-content: center;
+align-items: center;
+margin:25px;
+}
+button{
+    padding:10px 1rem;
+    margin: 15px;
+    cursor: pointer;
+}
+.btn1{
+    background-color: rgb(201, 18, 18);
+    color:white;
+    font-size: 20px;
+    border:none;
+    text-transform: uppercase;
+    border-radius: 2px;
+    transition: background-color 0.15s;
+}
+
+.btn1:hover{
+    background-color: #fff;
+    color: rgb(201, 18, 18);
+    border: 1px solid rgb(201, 18, 18);
+}
+
+.btn2{
+    background-color: transparent;
+    color:rgb(57, 119, 189);
+    font-weight: bold;
+    font-size: 20px;
+    border: 1px solid rgb(57, 119, 189);
+    text-transform: uppercase;
+    width: 6.2rem;
+    border-radius: 2px;
+    transition: background-color 0.15s;
+}
+
+.btn2:hover{
+    background-color:rgb(57, 119, 189);
+    color: #fff;
+    border: 1px solid rgb(57, 119, 189);
+}
+
+.btn3{
+    background-color: rgb(100, 155, 218);
+    color:#fff;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 25px;
+    width: 7rem;
+    transition: background-color 0.15s;
+}
+
+.btn3:hover{
+    background-color: #fff;
+    color: rgb(100, 155, 218);
+    border: 1px solid rgb(100, 155, 218);
+}
+
+
+img {
+    margin: 2rem;
+    height: 3rem;
+    cursor: pointer;
+}
+
+.vid-pic {
+    max-width: 90%;
+    height: auto; /* Ensures the image maintains its aspect ratio */
+    width: auto; /* Ensures the image maintains its aspect ratio */
+}
+
+.vid-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 2rem;
+    margin-top: -1.2rem;
+}
+
+.account {
+    margin-top: -1.2rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.profile-pic {
+    height: 5rem;
+    border-radius: 50%;
+    border: 1px solid #333;
+}
+
+.yt-body{
+    background-color: #0f0f0f;
+    color: #f1f1f1
+}
+
+.name {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.subs{
+    font-weight: normal;
+    font-size: 15px;
+    color: gray;
+}
+
+.btn-sub {
+    background-color: #f1f1f1;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+    color: #262626;
+}
+
+.deets{
+    margin-left: 2rem;
+    padding: 0.9rem;
+    background-color: #262626;
+    border-radius: 12px;
+    min-width: 36.4%;
+    max-width: 420px;
+    
+}
+
+.views{
+    margin-bottom: 0.2rem;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.hashtag {
+    color:rgb(44, 148, 253);
+}
+
+.comments-num{
+    margin-left: 2rem;
+    padding-top: 2rem;
+    font-size: 25px;
+    font-weight: bold;
+}
+
